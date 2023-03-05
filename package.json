@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-geoip",
+  "version": "1.0.0",
+  "description": "A demo using geoip-lite in Node.js.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MLAbram/nodejs-geoip.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MLAbram/nodejs-geoip/issues"
+  },
+  "homepage": "https://github.com/MLAbram/nodejs-geoip#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "geoip-lite": "^1.4.7",
+    "nodemon": "^2.0.21"
+  }
+}
